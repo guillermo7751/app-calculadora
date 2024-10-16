@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class CalculadoraComponent {
   
-  resultado:Number = 0;
+  resultado:number;
   
-  dameResultado(suma:Number){
+  dameResultado(suma:number){
     this.resultado = suma;
   }
 }

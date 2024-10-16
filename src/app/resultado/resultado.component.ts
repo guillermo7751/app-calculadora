@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './resultado.component.css'
 })
 export class ResultadoComponent {
-  @Input() suma:Number; 
+  @Input() suma:number; 
 }
